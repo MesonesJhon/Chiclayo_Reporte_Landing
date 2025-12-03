@@ -15,7 +15,7 @@ export const Hero = () => {
             Reporta incidencias urbanas en segundos con geolocalización y evidencia.
             Tu voz construye una ciudad mejor.
           </p>
-          <button className="btn btn-primary hero-cta" onClick={() => window.location.href = '/app-debug.apk'}>
+          <button className="btn btn-primary hero-cta" onClick={() => window.location.href = 'https://github.com/MesonesJhon/Chiclayo_Reporte_Landing/releases/download/v1.0.0/app-debug.apk'}>
             Descargar App
           </button>
         </div>

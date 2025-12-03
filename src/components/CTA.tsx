@@ -13,7 +13,7 @@ export const CTA = () => {
           <p className="cta-subtitle">Tu reporte construye una ciudad mejor</p>
           <div className="cta-buttons">
             <a 
-              href="/app-debug.apk" 
+              href="https://github.com/MesonesJhon/Chiclayo_Reporte_Landing/releases/download/v1.0.0/app-debug.apk" 
               download="ChiclayoReporta.apk"
               className="btn btn-primary cta-button"
             >
@@ -21,7 +21,7 @@ export const CTA = () => {
               Descargar para Android
             </a>
             <a 
-              href="/app-debug.apk" 
+              href="https://github.com/MesonesJhon/Chiclayo_Reporte_Landing/releases/download/v1.0.0/app-debug.apk" 
               download="ChiclayoReporta.apk"
               className="btn btn-outline cta-button"
             >
