@@ -17,7 +17,7 @@ export const Footer = () => {
           <div className="footer-section">
             <h4 className="footer-heading">Autores del Proyecto</h4>
             <ul className="footer-authors">
-              <li>Mezones Manallaye Jhon Esnaider</li>
+              <li>Mesones Manallaye Jhon Esnaider</li>
               <li>Mechan Parra Anthony Joel</li>
               <li>Martínez Salazar Carlos Daniel</li>
             </ul>
