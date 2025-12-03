@@ -1,0 +1,51 @@
+.features {
+  background: linear-gradient(180deg, #0D1B2A 0%, var(--color-bg-dark) 100%);
+  position: relative;
+}
+
+.features::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 50%, rgba(0, 188, 212, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 80%, rgba(156, 39, 176, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+.features-grid {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-card {
+  text-align: center;
+  opacity: 0;
+  transition: all var(--transition-normal);
+}
+
+.feature-icon {
+  font-size: 4rem;
+  margin-bottom: var(--spacing-md);
+  filter: drop-shadow(0 4px 12px rgba(0, 188, 212, 0.3));
+}
+
+.feature-title {
+  font-size: 1.25rem;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 600;
+}
+
+.feature-description {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.feature-card:hover .feature-icon {
+  transform: scale(1.1);
+  transition: transform var(--transition-normal);
+}

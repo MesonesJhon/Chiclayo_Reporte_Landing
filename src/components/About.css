@@ -1,0 +1,22 @@
+.about {
+  background: linear-gradient(180deg, var(--color-bg-dark) 0%, #0D1B2A 100%);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 0;
+}
+
+.about-text {
+  font-size: clamp(1.125rem, 2vw, 1.375rem);
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.about-text strong {
+  color: var(--color-accent-cyan);
+  font-weight: 600;
+}
