@@ -9,7 +9,7 @@ export const Hero = () => {
       <div className="hero-background"></div>
       <div className="container hero-content">
         <div className={`hero-text ${isVisible ? 'animate-fade-in-up' : ''}`}>
-          <h1 className="hero-title">CHICLAYO REPORTE</h1>
+          <h1 className="hero-title">CHICLAYO REPORTA</h1>
           <p className="hero-subtitle">La app que conecta al ciudadano con la Municipalidad</p>
           <p className="hero-description">
             Reporta incidencias urbanas en segundos con geolocalización y evidencia.
